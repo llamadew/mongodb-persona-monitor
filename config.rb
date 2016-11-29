@@ -1,8 +1,3 @@
-require 'base64'
-require 'RMagick'
-include Magick
-
-
 ###
 # Page options, layouts, aliases and proxies
 ###
@@ -55,29 +50,15 @@ end
 
 # Methods defined in the helpers block are available in templates
 helpers do
-  def base64_image(name)
-    path = "source/#{name}"
-    img  = Magick::Image::read(path)[0]
-    img.resize_to_fit!(20)
+  def next_persona_link(slug)
+    persona_arr = data.personas.personas
 
-    data = Base64.encode64(img.to_blob)
+    persona_index = data.personas.personas.find_index {|p| p.slug == slug}
+    previous_persona = persona_arr[persona_index - 1]
+    next_persona = persona_arr[persona_index + 1] || persona_arr[0]
 
-    str = "background-image: url('data:image/jpeg;base64,#{data}');"
-    str.gsub!(/\n/, '')
-
-    end
-
-    def next_persona_link(slug)
-      persona_arr = data.personas.personas
-
-      persona_index = data.personas.personas.find_index {|p| p.slug == slug}
-      previous_persona = persona_arr[persona_index - 1]
-      next_persona = persona_arr[persona_index + 1] || persona_arr[0]
-
-      [previous_persona, next_persona]
-
-    end
-
+    [previous_persona, next_persona]
+  end
 end
 
 # Build-specific configuration
