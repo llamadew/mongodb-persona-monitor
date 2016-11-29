@@ -1,25 +1,101 @@
 ---
 personas:
-  - display_name: Sam Smith
-    title: Sr. Software Developer 
-    portrait: 'images/0.png'
-    objective: Develop the most technically advanced product catalog app using as many of Springs tools as possible.
-    quote: I'm not a pacifist but I love non-blocking.  I'm about to get some project reactor up in here.
+  - display_name: Bob Smith
+    title: Chief Executive Officer
+    portrait: 'images/bob-smith.png'
+    objective: Master cleanse 90's tacos freegan health goth fashion axe. Fap cronut taxidermy authentic.
+    quote: Cray live-edge dreamcatcher helvetica literally. Pitchfork la croix raw denim seitan.
     tools:
-      - Spring
-      - IntelliJ
-      - start.spring.io
-      - Maven/Gradle
-      - Vim
-      - Samsung Galaxy 7 Edge 
+      - Umami
+      - Microdosing
+      - Keytar
+      - Selvage
+      - Messenger bag
+      - Raclette
+      - iPhone
+      - Distillery
     behaviors:
-      - Reads every blog post and tweet from Dave Syer
-      - Works closely with the Platform Team to get the most out of PCF.
-      - Has a few personal projects on github
+      - Chartreuse cred hexagon kogi
+      - Locavore gentrify brooklyn put a bird on it
+      - Readymade kickstarter vice normcore glossier
+      - Tofu direct trade echo park, activated charcoal live-edge enamel
+      - Shoreditch freegan lyft, sartorial vegan ramps lo-fi. Narwhal polaroid sustainable,
     needs:
-      - To provide a stable application for application operators to manage.
-      - A tool to facilitate cleaning up abandondoned shopping carts on a time interval.
-      - A fresh pot of coffee after lunch to make sure code gets checked in before 5. 
+      - Chartreuse cred hexagon kogi
+      - Locavore gentrify brooklyn put a bird on it
+      - Readymade kickstarter vice normcore glossier
+      - Tofu direct trade echo park, activated charcoal live-edge enamel
+      - Shoreditch freegan lyft, sartorial vegan ramps lo-fi. Narwhal polaroid sustainable,
     frustrations:
-      - Having to do things "the old way" because that thing isn't on PCF.
-    attribution: None (Scott L'Hommedieu) 
+      - Chartreuse cred hexagon kogi
+      - Locavore gentrify brooklyn put a bird on it
+      - Readymade kickstarter vice normcore glossier
+      - Tofu direct trade echo park, activated charcoal live-edge enamel
+      - Shoreditch freegan lyft, sartorial vegan ramps lo-fi. Narwhal polaroid sustainable,
+    attribution: http://google.com
+  - display_name: Paula Paulson
+    title: Chief Design Officer
+    portrait: 'images/paula-paulson.png'
+    objective: Master cleanse 90's tacos freegan health goth fashion axe. Fap cronut taxidermy authentic.
+    quote: Cray live-edge dreamcatcher helvetica literally. Pitchfork la croix raw denim seitan.
+    tools:
+      - Umami
+      - Microdosing
+      - Keytar
+      - Selvage
+      - Messenger bag
+      - Raclette
+      - iPhone
+      - Distillery
+    behaviors:
+      - Chartreuse cred hexagon kogi
+      - Locavore gentrify brooklyn put a bird on it
+      - Readymade kickstarter vice normcore glossier
+      - Tofu direct trade echo park, activated charcoal live-edge enamel
+      - Shoreditch freegan lyft, sartorial vegan ramps lo-fi. Narwhal polaroid sustainable,
+    needs:
+      - Chartreuse cred hexagon kogi
+      - Locavore gentrify brooklyn put a bird on it
+      - Readymade kickstarter vice normcore glossier
+      - Tofu direct trade echo park, activated charcoal live-edge enamel
+      - Shoreditch freegan lyft, sartorial vegan ramps lo-fi. Narwhal polaroid sustainable,
+    frustrations:
+      - Chartreuse cred hexagon kogi
+      - Locavore gentrify brooklyn put a bird on it
+      - Readymade kickstarter vice normcore glossier
+      - Tofu direct trade echo park, activated charcoal live-edge enamel
+      - Shoreditch freegan lyft, sartorial vegan ramps lo-fi. Narwhal polaroid sustainable,
+    attribution: http://google.com
+  - display_name: Jackie Jackson
+    title: Chief Technology Officer
+    portrait: 'images/jackie-jackson.png'
+    objective: Master cleanse 90's tacos freegan health goth fashion axe. Fap cronut taxidermy authentic.
+    quote: Cray live-edge dreamcatcher helvetica literally. Pitchfork la croix raw denim seitan.
+    tools:
+      - Umami
+      - Microdosing
+      - Keytar
+      - Selvage
+      - Messenger bag
+      - Raclette
+      - iPhone
+      - Distillery
+    behaviors:
+      - Chartreuse cred hexagon kogi
+      - Locavore gentrify brooklyn put a bird on it
+      - Readymade kickstarter vice normcore glossier
+      - Tofu direct trade echo park, activated charcoal live-edge enamel
+      - Shoreditch freegan lyft, sartorial vegan ramps lo-fi. Narwhal polaroid sustainable,
+    needs:
+      - Chartreuse cred hexagon kogi
+      - Locavore gentrify brooklyn put a bird on it
+      - Readymade kickstarter vice normcore glossier
+      - Tofu direct trade echo park, activated charcoal live-edge enamel
+      - Shoreditch freegan lyft, sartorial vegan ramps lo-fi. Narwhal polaroid sustainable,
+    frustrations:
+      - Chartreuse cred hexagon kogi
+      - Locavore gentrify brooklyn put a bird on it
+      - Readymade kickstarter vice normcore glossier
+      - Tofu direct trade echo park, activated charcoal live-edge enamel
+      - Shoreditch freegan lyft, sartorial vegan ramps lo-fi. Narwhal polaroid sustainable,
+    attribution: http://google.com
