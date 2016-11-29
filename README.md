@@ -1,6 +1,6 @@
 # Persona Monitor
 
-A customizable information radiator for personas, built with [Middleman](https://middlemanapp.com)
+A customizable information radiator for personas, built with [Middleman](https://middlemanapp.com), and [Basscss](http://basscss.com/).
 
 ## Installation
 
