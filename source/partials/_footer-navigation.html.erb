@@ -1,0 +1,26 @@
+<footer class="flex persona-detail-footer">
+  <div class="col col-12 sm-col-6 border-right border-top border-silver">
+    <a class="text-decoration-none persona-nav-link" href="<%= next_persona_link(persona_slug)[0][:slug] %>">
+      <div class="p2 sm-px3 persona-nav-item persona-prev relative">
+        <div class="max-width-4 mx-auto">
+          <div class="persona-nav-item-content">
+            <h3 class="h4 sm-h3 regular muted my0"><%= next_persona_link(persona_slug)[0][:display_name] %></h3>
+            <h2 class="h3 sm-h2 my0 regular persona-nav-item-name"><%= next_persona_link(persona_slug)[0][:title] %></h2>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div class="col col-12 sm-col-6 border-top border-silver right-align">
+    <a class="text-decoration-none persona-nav-link" href="<%= next_persona_link(persona_slug)[1][:slug] %>">
+      <div class="p2 sm-px3 persona-nav-item persona-next relative">
+        <div class="max-width-4 mx-auto">
+          <div class="persona-nav-item-content">
+            <h3 class="h4 sm-h3 regular muted my0"><%= next_persona_link(persona_slug)[1][:display_name] %></h3>
+            <h2 class="h3 sm-h2 my0 regular persona-nav-item-name"><%= next_persona_link(persona_slug)[1][:title] %></h2>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+</footer>

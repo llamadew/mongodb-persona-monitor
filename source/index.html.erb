@@ -1,0 +1,24 @@
+---
+title: Persona Monitor
+---
+<%= partial 'partials/header' %>
+<div class="sm-py2">
+  <div class="persona-tile-wrapper animated py2 sm-py4">
+    <div class="persona-tiles">
+      <% data.personas.personas.each do |persona| %>
+        <div class="col col-10 sm-col-4 sm-px2 mr2 sm-mr0">
+          <div class="persona-tile bg-white box-shadow-key-1 mb3">
+            <% link_to persona.slug, class: 'text-decoration-none' do %>
+              <figure class="persona-headshot m0" style="background-image:url(<%= persona.portrait %>)"></figure>
+              <div class="p2 py3 center">
+                <h1 class="h2 mt0 mb1 regular gray"><%= persona.display_name %></h1>
+                <h2 class="h2 dark-gray regular m0"><%= persona.title %></h2>
+              </div>
+            <% end %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="../javascripts/index.js"></script>

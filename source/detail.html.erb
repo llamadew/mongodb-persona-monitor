@@ -1,0 +1,107 @@
+<div class="persona-detail-wrapper animated flex flex-wrap bg-white">
+  <div
+    class="col col-12 persona-image animated flex items-end relative"
+    data-bg="<%= persona_portrait %>"
+    style="<%= base64_image(persona_portrait) %>"
+    >
+    <a href="/" class="btn btn-close" id="closeBtn">
+      <img src="images/icon-close.svg" alt="">
+    </a>
+    <div class="flex-auto flex-column p2 sm-p3">
+      <h2 class="regular my0 white"><%= persona_name %></h1>
+      <h1 class="regular my0 white"><%= persona_title %></h2>
+    </div>
+  </div>
+  <div class="col col-12 bg-white persona-detail-col sm-flex flex-column">
+    <div class="px2 sm-px3 py2 sm-py3 flex-auto">
+      <div class="max-width-4 mx-auto persona-content animated">
+        <blockquote class="muted h2 sm-h1 my1 line-height-3">
+          <%= persona_quote %>
+        </blockquote>
+        <hr class="my3 muted">
+        <% if persona_objective.length > 0 %>
+          <section class="mb3" id="objective">
+            <div class="flex items-center mb1">
+              <i class="material-icons mr1 muted">flag</i>
+              <h1 class="h2 my0 regular">Objective</h1>
+            </div>
+            <p class="h3 regular mt0 dark-gray"><%= persona_objective %></p>
+          </section>
+        <% end %>
+        <% if persona_tools.length > 0 %>
+          <section class="mb3" id="tools">
+            <div class="flex items-center mb1">
+              <i class="material-icons mr1 muted">business_center</i>
+              <h1 class="h2 my0 regular">Tools</h1>
+            </div>
+            <div class="col-12 lg-col-8">
+              <ul class="h3 regular mt0 dark-gray list-dotted list-tools clearfix">
+                <% persona_tools.each do |tool| %>
+                  <li><%= tool %></li>
+                <% end %>
+              </ul>
+            </div>
+          </section>
+        <% end %>
+        <% if persona_behaviors.length > 0 %>
+          <section class="mb3" id="behaviors">
+            <div class="flex items-center mb1">
+              <i class="material-icons mr1 muted">directions_walk</i>
+              <h1 class="h2 my0 regular">Behaviors</h1>
+            </div>
+            <ul class="h3 regular mt0 dark-gray list-dotted">
+              <% persona_behaviors.each do |behavior| %>
+                <li>
+                  <%= behavior %>
+                </li>
+              <% end %>
+            </ul>
+          </section>
+        <% end %>
+        <% if persona_needs.length > 0 %>
+          <section class="mb3" id="needs">
+            <div class="flex items-center mb1">
+              <i class="material-icons mr1 muted">playlist_add_check</i>
+              <h1 class="h2 my0 regular">Needs / Goals</h1>
+            </div>
+            <ul class="h3 regular mt0 dark-gray list-dotted">
+              <% persona_needs.each do |need| %>
+                <li>
+                  <%= need %>
+                </li>
+              <% end %>
+            </ul>
+          </section>
+        <% end %>
+        <% if persona_frustrations.length > 0 %>
+          <section class="mb3" id="frustrations">
+            <div class="flex items-center mb1">
+              <i class="material-icons mr1 muted">thumb_down</i>
+              <h1 class="h2 my0 regular">Frustrations</h1>
+            </div>
+            <ul class="h3 regular mt0 dark-gray list-dotted">
+              <% persona_frustrations.each do |frustration| %>
+                <li>
+                  <%= frustration %>
+                </li>
+              <% end %>
+            </ul>
+          </section>
+        <% end %>
+        <% if persona_attribution.length > 0 %>
+        <section class="mb0" id="attribution">
+          <div class="flex items-center mb1">
+            <i class="material-icons mr1 muted">bookmark</i>
+            <h1 class="h2 my0 regular">Source</h1>
+          </div>
+          <h3 class="h4 sm-h3 regular mt0 dark-gray">
+            <a class="text-decoration-none break-word" target="_blank" href="<%= persona_attribution %>"><%= persona_attribution %></a>
+          </h3>
+        </section>
+        <% end %>
+      </div>
+    </div>
+    <%= partial 'partials/footer-navigation' %>
+  </div>
+</div>
+<script type="text/javascript" src="../javascripts/detail.js"></script>
