@@ -10,6 +10,9 @@
 # Ignore the build directory
 /build
 
+#ignore the cfapp dir
+/cfapp
+
 # Ignore cache
 /.sass-cache
 /.cache
