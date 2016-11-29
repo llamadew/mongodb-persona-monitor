@@ -1,4 +1,5 @@
 # Persona Monitor
+http://persona-monitor.cfapps.io/
 
 A customizable information radiator for personas, built with [Middleman](https://middlemanapp.com), and [Basscss](http://basscss.com/).
 
