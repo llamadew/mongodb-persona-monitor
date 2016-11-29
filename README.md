@@ -43,7 +43,7 @@ Feel free to add as many objects to the `personas` array as you'd like. For the 
 personas:
   - display_name: Bob Smith
     title: Chief Executive Officer
-    portrait: 'images/bob-smith.png'
+    portrait: 'images/bob-smith.png' # relative path to the images dir. Be sure to add your image!
     objective: objective goes here
     quote: quote goes here
     tools:
