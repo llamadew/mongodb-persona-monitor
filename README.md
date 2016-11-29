@@ -36,7 +36,6 @@ Deploy the `/build` directory however you'd like.
 ## Customization
 
 All of the persona data lives in `data/personas.yml`.
-
 Feel free to add as many objects to the `personas` array as you'd like. For the time being, they _must_ adhere to the following structure, as the application expects these (and only these) attributes to be available.
 
 ```yaml
@@ -58,4 +57,6 @@ personas:
     attribution: http://google.com
  ````
 
-For the time being, the grid layout in `index.html.erb` is optimized for **3** personas. Adjust the grid to your liking, but be warned that you'll likely need to tweak some CSS accordingly.
+Persona Monitor uses a 12 column grid system, but allows you to specify how many columns you would like one Persona tile to span on viewports larger than `40em`.
+
+At the top of `index.html.erb`, tweak the local `sm_col_modifier` variable to specify how many columns (out of 12) one tile should span. 4 (out of 12) means that a single tile spans 33.3% width; 6 (out of 12) means 50% width, etc.

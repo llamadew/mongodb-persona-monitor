@@ -1,12 +1,13 @@
 ---
 title: Persona Monitor
+sm_col_modifier: 4
 ---
 <%= partial 'partials/header' %>
 <div class="sm-py2">
   <div class="persona-tile-wrapper animated py2 sm-py4">
     <div class="persona-tiles">
       <% data.personas.personas.each do |persona| %>
-        <div class="col col-10 sm-col-4 sm-px2 mr2 sm-mr0">
+        <div class="col col-10 sm-col-<%= current_page.data.sm_col_modifier %> sm-px2 mr2 sm-mr0">
           <div class="persona-tile bg-white box-shadow-key-1 mb3">
             <% link_to persona.slug, class: 'text-decoration-none' do %>
               <figure class="persona-headshot m0" style="background-image:url(<%= persona.portrait %>)"></figure>
