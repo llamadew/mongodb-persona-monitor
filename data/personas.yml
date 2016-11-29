@@ -16,10 +16,15 @@ personas:
       - Reads every blog post and tweet from Dave Syer
       - Works closely with the Platform Team to get the most out of PCF.
       - Has a few personal projects on github
+      - Develops apps for many products/projects
+      - Creates "schedule" based tasks using Spring Cloud Tasks
+      - Uses the CF CLI and API more than GUIs like Appsman.
     needs:
       - To provide a stable application for application operators to manage.
       - A tool to facilitate cleaning up abandondoned shopping carts on a time interval.
-      - A fresh pot of coffee after lunch to make sure code gets checked in before 5. 
+      - A fresh pot of coffee after lunch to make sure code gets checked in before 5.
+      - A way to monitor batch application execution history in PCF.
     frustrations:
       - Having to do things "the old way" because that thing isn't on PCF.
+      - Too many tools and services to keep track of outside of PCF.
     attribution: None (Scott L'Hommedieu) 
