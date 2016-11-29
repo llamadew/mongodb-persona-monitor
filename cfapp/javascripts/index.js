@@ -1,0 +1,1 @@
+$(document).ready(function(){var i=$(".persona-tiles").flickity({cellAlign:"center",groupCells:"80%",wrapAround:!0,watchCSS:!0,prevNextButtons:!1});i.on("dragStart.flickity",function(){$(this).addClass("is-dragging")}),i.on("dragEnd.flickity",function(){$(this).removeClass("is-dragging")})});
