@@ -47,14 +47,13 @@ personas:
     objective: objective goes here
     quote: quote goes here
     tools:
-      - tool #1
+      - this is a tool
     behaviors:
-      - behavior #1
+      - this is a behavior
     needs:
-      - need #1
- sustainable,
+      - this is a need
     frustrations:
-      - frustration #1
+      - this is a frustration
     attribution: http://google.com
  ````
 
