@@ -12,6 +12,7 @@
 
 #ignore the cfapp dir
 /cfapp
+!/cfapp/Staticfile.auth
 
 # Ignore cache
 /.sass-cache

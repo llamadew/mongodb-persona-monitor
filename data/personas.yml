@@ -2,7 +2,7 @@
 personas:
   - display_name: Sam Smith
     title: Sr. Software Developer 
-    portrait: 'images/0.png'
+    portrait: 'images/developer-persona.png'
     objective: Develop the most technically advanced product catalog app using as many of Springs tools as possible.
     quote: I'm not a pacifist but I love non-blocking.  I'm about to get some project reactor up in here.
     tools:
