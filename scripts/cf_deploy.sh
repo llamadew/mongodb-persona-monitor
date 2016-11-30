@@ -13,6 +13,8 @@ app_name="persona_app"
 
 bundle install
 bundle exec middleman build
+pushd ..
 mkdir -p ./cfapp ### /$docs_app_context_path
 cp -rf ./build/* ./cfapp/ ### /$docs_app_context_path
 cf push $app_name -m 64M -b https://github.com/cloudfoundry/staticfile-buildpack.git -d $domain --hostname $host_name -p ./cfapp
+popd
