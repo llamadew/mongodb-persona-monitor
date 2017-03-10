@@ -2,7 +2,7 @@
 personas:
   - display_name: Sam Smith
     title: Sr. Software Developer 
-    portrait: 'images/developer-persona.png'
+    portrait: 'images/sam-smith.png'
     objective: Develop the most technically advanced product catalog app using as many of Springs tools as possible.
     quote: I'm not a pacifist but I love non-blocking.  I'm about to get some project reactor up in here.
     tools:
@@ -27,16 +27,16 @@ personas:
     frustrations:
       - Having to do things "the old way" because that thing isn't on PCF.
       - Too many tools and services to keep track of outside of PCF.
-    attribution: None (Scott L'Hommedieu) 
+    attribution: http://www.google.com
   - display_name: Larry Lipton
     title: Platform Operator
     portrait: 'images/larry_lipton.png'
-    objective: **Keep apps and services running on the platform 
+    objective: Keep apps and services running on the platform 
     quote: If I had a nickle for every time I got paged because some developers app was down and it was their code I would not be on this persona list.
     tools:
-      - ** Ops Man
-      - ** Bosh
-      - ** vmWare VCenter 
+      - Ops Man
+      - Bosh
+      - vmWare VCenter 
     behaviors:
       - Prefers Formal Communication Channels
       - First Instict is "It's not my fault"
@@ -53,8 +53,7 @@ personas:
       - To mitigate risks (not increase risks)
       - To keep systems up to date
       - To easily plan and manage capacity
-     frustrations
+    frustrations:
       - Forced to be reactive
       - Lack of visibility of root cause of incidents
-     attribution: https://drive.google.com/drive/u/1/folders/0B1l9uox07pdDLV9xNXBGOHh1aTA?ths=true
-
+    attribution: https://drive.google.com/open?id=0B1l9uox07pdDRWt2N3BScVRNN00
